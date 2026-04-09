@@ -24,8 +24,8 @@ html, body {
 
 /* ── Date line ── */
 #date-line {
-  font-size: clamp(13px, 2.5vw, 17px);
-  font-weight: 300;
+  font-size: 25px;
+  font-weight: bolder;
   color: var(--soft);
   letter-spacing: 0.06em;
   text-align: center;
@@ -46,15 +46,15 @@ html, body {
 .box {
   /* Both boxes share the same computed size */
   width:  35vw;
-  height: 80vh;
+  height: 70vh;
   background: var(--card);
   border-radius: var(--r);
   box-shadow: var(--shadow);
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 200px;
-  font-weight: 500;
+  font-size: 220px;
+  font-weight: 900;
   color: var(--text);
   letter-spacing: -0.04em;
   line-height: 1;
