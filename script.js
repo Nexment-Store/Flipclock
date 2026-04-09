@@ -37,3 +37,8 @@ if ('wakeLock' in navigator) {
     if (document.visibilityState === 'visible') lock();
   });
 }
+
+
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("sw.js");
+}
